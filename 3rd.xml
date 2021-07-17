@@ -1,0 +1,63 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE student_catalog [
+<!ELEMENT student_catalog (student+)>
+<!ELEMENT student (name, address, marks, hobbies)>
+<!ELEMENT name (fname, lname, mname)>
+<!ELEMENT address (houseno, streetname, cityname, state)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="3rd.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Prajwal </xs:fname>
+	<xs:lname> Jhon </xs:lname>
+	<xs:mname> Amin </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 20 -#92 </xs:houseno>
+	<xs:streetname> Benegal </xs:streetname>
+	<xs:cityname> Udupi </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 91 </xs:marks>
+   <xs:hobbies> Drawing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Legend</xs:fname>
+	<xs:lname> Amin</xs:lname>
+	<xs:mname> B S </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 30 #34 </xs:houseno>
+	<xs:streetname> Oxford Road </xs:streetname>
+	<xs:cityname> Bangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 99 </xs:marks>
+   <xs:hobbies> Drawing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Prajwal </xs:fname>
+	<xs:lname> Amin</xs:lname>
+	<xs:mname> B S </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 20 # 44 </xs:houseno>
+	<xs:streetname> Udupi </xs:streetname>
+	<xs:cityname> Udupi </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 95 </xs:marks>
+   <xs:hobbies> Singing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</xs:schema>

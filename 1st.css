@@ -1,0 +1,30 @@
+car {
+    display:flex;
+    padding-bottom: 15px;
+    border: 5px solid rgb(74, 131, 148);
+    padding: 10px;
+    
+    background-color: rgb(209, 164, 164);
+
+}
+
+year {
+    color: rgb(72, 0, 100);
+    font-weight: bolder;
+ }
+
+model {
+    color: rgb(38, 134, 110);
+    font-weight: bolder;
+    font-family: broadway;
+
+}
+
+accessories {
+    color: blue;
+}
+
+make {
+    color: rgb(220, 83, 20);
+
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="4th.xsl"?>
+<emp>
+ <s>
+ <eno> EM001 </eno>
+ <name> 
+	<fname> PRAJWAL </fname>
+	<lname> JHON </lname>
+	<mname> AMIN</mname>
+ </name>
+ <fathername> JARVIS </fathername>
+ <DOB> 13-06-1999</DOB>
+ <city> UDUPI</city>
+ <state>KARNATAKA  </state>
+ <qualification> MCA </qualification>
+ </s>
+ <s>
+ <eno>EM002 </eno>
+ <name> 
+	<fname> LEGEND </fname>
+	<lname> AMIN </lname>
+	<mname>  </mname>
+ </name>
+ <fathername> MORGAN AMIN </fathername>
+ <DOB> 1-01-1999 </DOB>
+ <city> CHENNAI </city>
+ <state> TAMILNADU </state>
+ <qualification> MBA </qualification>
+ </s>
+ <s>
+ <eno> EM003 </eno>
+ <name> 
+	<fname> STEVE</fname>
+	<lname> ROGER </lname>
+	<mname> S </mname>
+ </name>
+ <fathername>CHRIS ROGER </fathername>
+ <DOB> 12-12-1767 </DOB>
+ <city> LONDON</city>
+ <state> UK </state>
+ <qualification>M.TECH</qualification>
+  </s>
+</emp>
+
+

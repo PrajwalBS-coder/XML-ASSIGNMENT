@@ -1,0 +1,72 @@
+<!DOCTYPE car_catalog SYSTEM "1st.dtd">
+
+<?xml-stylesheet type = "text/css" href = "1st.css"?>
+
+<car_catalog>
+<car>
+<year> 1997 </year>
+<make> Jhon's </make>
+<model> Ferrari </model>
+<color>RED </color>
+<engine>
+<number_of_cylinders> 16cylinder
+</number_of_cylinders>
+<fuel_system>DUAL injected </fuel_system>
+</engine>
+<number_of_doors> 2 door </number_of_doors>
+<transmission_type>  automatic</transmission_type>
+<accessories radio = "yes"  air_conditioning = "yes"
+    power_windows = "yes"
+    power_steering = "yes"
+    power_brakes = "yes" />
+</car>
+<car>
+<year> 1965 </year>
+<make>Amin's </make>
+<model> Mustang </model>
+<color> Yellow </color>
+<engine>
+<number_of_cylinders> 8 cylinder
+</number_of_cylinders>
+<fuel_system>  carburetor </fuel_system>
+</engine>
+<number_of_doors> 2 door </number_of_doors>
+<transmission_type> 6  speed manual </transmission_type>
+<accessories radio = "yes"  air_conditioning = "no"
+    power_windows = "no"  power_steering = "yes"
+    power_brakes = "yes" />
+</car>
+<car>
+<year> 1985 </year>
+<make> Prajwal's </make>
+<model> Mesarati </model>
+<color> Blue </color>
+<engine>
+<number_of_cylinders> 4 cylinder
+</number_of_cylinders>
+<fuel_system> fuel injected </fuel_system>
+</engine>
+<number_of_doors> 2 door </number_of_doors>
+<transmission_type> 5 speed manual </transmission_type>
+<accessories radio = "yes"  air_conditioning = "yes"
+    power_windows = "no"  power_steering = "yes"
+    power_brakes = "yes" />
+</car>
+<car>
+<year> 1985 </year>
+<make>Morgan's  </make>
+<model> Ford</model>
+<color> Grey</color>
+<engine>
+<number_of_cylinders> 25 cylinder
+</number_of_cylinders>
+<fuel_system> fuel injected/Battery </fuel_system>
+</engine>
+<number_of_doors> 4 door </number_of_doors>
+<transmission_type> 4 speed manual/Automatic </transmission_type>
+<accessories radio = "yes"  air_conditioning = "yes"
+    power_windows = "yes"  power_steering = "yes"
+    power_brakes = "yes" />
+</car>
+
+</car_catalog>
